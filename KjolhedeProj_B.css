@@ -116,6 +116,9 @@ input.button {
 	/*transform: translate(244px, -41px);*/
 }
 
+form {
+	background-color:white;
+}
 .image_text {
 	text-align: center;
 	color: white;
