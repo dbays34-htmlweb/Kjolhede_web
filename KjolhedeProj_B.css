@@ -15,9 +15,7 @@ img:active {
 
 }
 
-.table {
-	width: 100px;
-}
+
 
 .heading{
 	color: white;
@@ -118,7 +116,13 @@ input.button {
 }
 
 form {
-	background-color:white;
+	background-color: black;
+	max-width: 1268px;
+
+}
+table {
+	align-content: center;
+	background-color: white;
 }
 .image_text {
 	text-align: center;
