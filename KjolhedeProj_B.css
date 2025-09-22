@@ -22,6 +22,7 @@ img:active {
 .heading{
 	color: white;
 	text-align: center;
+	max-width: 1268px;
 }
 .links_wrapper {
 	display: flex;
