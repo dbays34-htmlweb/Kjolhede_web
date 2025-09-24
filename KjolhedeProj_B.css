@@ -1,0 +1,154 @@
+body {
+	background-color: black;
+	margin: 50px;
+	padding: 25px;
+
+
+
+a:link 	{color: blue;}
+a:visited {color: blue;}
+a:active {}
+a:hover  {color: white;}
+
+img:active {
+	transform: scale(1.75);
+
+}
+
+.heading {
+	color: white;
+	text-align: center;
+	max-width: 1268px;
+}
+.links_wrapper {
+	display: flex;
+	max-width: 1268px;
+	min-width: 693px;
+}
+.menu-links	{
+	display: flex;	
+	margin: 5px;
+	padding: 5px;
+	font-size: 1.5rem;
+	width: 100%;
+	/*border: 1px solid white;*/
+	min-width: fit-content;
+}
+
+.pages {
+	display: flex;
+	justify-content: space-between;	
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 5px;
+
+	border: 1px solid white;
+}
+
+.headlinks {
+	display: contents;
+	
+}
+
+/*.pages2 { display: flex;
+	min-width: 570px;
+}*/
+
+.container {
+	display: flex;
+	justify-content: center;
+	max-width: 1268px;
+	min-width: 693px;
+	
+}
+
+.photo-gallery {
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.column_1 .column_2 .column_3 {
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.column_1 {
+	min-width: 150px;
+	max-width: 400px;
+	padding-right: 10px;
+}
+
+.column_2 {
+	min-width: 150px;
+	max-width: 400px;
+	padding-right: 10px;
+}
+
+.column_3 {
+	min-width: 150px;
+	max-width: 400px;
+	padding-left: 10px;
+}
+
+.photo img {
+	width: auto;
+	max-width: 100%;
+	object-fit: cover;
+	padding: 5px;
+}
+
+.photo {
+	display: flex;
+	flex-direction: column;
+	/*position: relative;*/
+
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+}
+
+input.info {
+	width: 73%;
+	/*position: relative;
+	transform: translate(0px, -21px);*/
+}
+
+input.button {
+	max-width: 24%;
+	
+	/*transform: translate(244px, -41px);*/
+}
+
+form { display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: blue;
+	max-width: 1268px;
+	min-width: 696px;
+	border: 1px solid red;
+}
+table { display: flex;
+	justify-content: center;
+	min-width: 693px;
+	align-content: center;
+	background-color: white;
+	
+}
+
+
+.letter {
+	display: flex;
+}
+
+
+
+
+
+
+
