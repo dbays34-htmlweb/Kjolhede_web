@@ -86,6 +86,7 @@ img:active {
 	min-width: 150px;
 	max-width: 400px;
 	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .column_3 {
