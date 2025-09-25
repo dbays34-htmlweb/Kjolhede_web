@@ -10,9 +10,14 @@ a:visited {color: blue;}
 a:active {}
 a:hover  {color: white;}
 
+td > a:hover {color: red;}
+
 img:active {
 	transform: scale(1.75);
+}
 
+.form-link > a {
+	
 }
 
 .heading {
@@ -68,6 +73,7 @@ img:active {
 	
 }
 
+/*img {border-radius: 10px;}*/
 
 .column_1 .column_2 .column_3 {
 	max-width: 400px;
@@ -79,34 +85,36 @@ img:active {
 .column_1 {
 	min-width: 150px;
 	max-width: 400px;
-	padding-right: 10px;
+	padding-right: 12px;
 }
 
 .column_2 {
 	min-width: 150px;
 	max-width: 400px;
 	padding-right: 10px;
-	padding-left: 10px;
+	padding-left: 12px;
 }
 
 .column_3 {
 	min-width: 150px;
 	max-width: 400px;
-	padding-left: 10px;
+	padding-left: 12px;
 }
 
 .photo img {
 	width: auto;
 	max-width: 100%;
 	object-fit: cover;
-	padding: 5px;
+	
 }
 
 .photo {
 	display: flex;
 	flex-direction: column;
 	/*position: relative;*/
-
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
 }
 
 .input {
@@ -128,20 +136,28 @@ input.button {
 
 form { display: flex;
 	justify-content: center;
-	flex-direction: column;
-	background-color: blue;
+	flex-direction: column;	
 	max-width: 1268px;
 	min-width: 696px;
-	border: 1px solid red;
+	
 }
 table { display: flex;
 	justify-content: center;
 	min-width: 693px;
 	align-content: center;
-	background-color: white;
+	background-color: black;
 	
 }
 
+tr {
+	background-color: white;
+}
+
+button { 
+	background:blue;
+	border-radius: 60px;
+	color: white;
+}
 
 .letter {
 	display: flex;
