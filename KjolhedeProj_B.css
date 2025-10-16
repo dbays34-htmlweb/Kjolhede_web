@@ -16,6 +16,8 @@ img:active {
 	transform: scale(1.75);
 }
 
+
+
 .form-link > a {
 	
 }
@@ -105,7 +107,8 @@ img:active {
 	width: auto;
 	max-width: 100%;
 	object-fit: cover;
-	
+	display: block;
+	margin: auto;
 }
 
 .photo {
@@ -136,9 +139,10 @@ input.button {
 
 form { display: flex;
 	justify-content: center;
-	flex-direction: column;	
+	flex-direction: column;
+
 	max-width: 1268px;
-	min-width: 696px;
+	min-width: fit-content;
 	
 }
 table { display: flex;
